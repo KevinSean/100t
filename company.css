@@ -99,7 +99,7 @@ td {
   margin-left: 50px;
   float: left;
   color: black;
-  transition: all 0.4s ease 0s;
+  transition: all 0s ease 0s;
   cursor: default;
 }
 
