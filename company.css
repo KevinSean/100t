@@ -37,11 +37,11 @@ li:hover {
 
 header img {
   width: auto;
-  height: 100px;
+  height: 70px;
   margin-top: 10px;
   margin-bottom: 10px;
   filter: grayscale(100%);
-  transition: all 0.4s ease-in 0s;
+  transition: all 0.28s ease-in 0s;
 }
 
 header img:hover {
