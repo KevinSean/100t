@@ -36,8 +36,10 @@ li:hover {
 }
 
 header img {
-  width: auto;
-  height: 70px;
+  position: absolute;
+  left: calc(50% - 35px);
+  width: 70px;
+  height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   filter: grayscale(100%);
@@ -50,7 +52,7 @@ header img:hover {
 
 .mainone img {
   display: block;
-  width: 65%;
+  width: 45%;
   height: auto;
   filter: grayscale(100%);
   margin-top: 40px;
@@ -66,7 +68,7 @@ header img:hover {
 
 .lastimg img {
   display: block;
-  width: 65%;
+  width: 45%;
   height: auto;
   filter: grayscale(100%);
   margin-top: 40px;
