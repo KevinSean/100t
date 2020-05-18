@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+  font-family:"Open Sans Condensed", arial;
+}
+header {
+  display: flex;
+  position: static;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  margin: 0px 20px;
+  transition: all 0s;
+  color: black;
+  cursor: default;
+}
+
+li:hover {
+  color: red;
+}
+
+#faright {
+  margin: 0px 60px 0px 20px;
+}
+
+.headerbutton li {
+  display: inline-block;  
+}
+
+.shopbutton {
+  margin: 0px 245px 0px 0px;
+}
+
+header img {
+  position: absolute;
+  left: calc(50% - 35px);
+  top: 0px;
+  width: 70px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  filter: grayscale(100%);
+  transition: all 0.28s ease-in 0s;
+}
+
+header img:hover {
+  filter: grayscale(0%);
+}
+
+#containerright {
+  position: relative;
+  top: 35px;
+  width: 50%;
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  margin-left: -0.5%;
+}
+
+#containerleft {
+  position: relative;
+  top: 35px;
+  width: 50%;
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  margin-right: -0.5%;
+}
+
+#left img{
+  float: right;
+  margin-right: 20px;
+}
+
+#right img{
+  float: left;
+  margin-left: 20px;
+}
+
+.mainone img {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    filter: grayscale(100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.4s ease 0s;
+}
+
+.mainone img:hover {
+  transform: scale(1.05);
+}
+
+.lastimg img {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  filter: grayscale(100%);
+  margin-top: 10px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.4s ease 0s;
+}
+
+.lastimg img:hover {
+  transform: scale(1.04);
+}
+
+footer {
+  display: flex;
+  position: static;
+  background-color: #dfe3df;
+  align-items: center;  
+  width: 100%;
+}
+
+
+
+td {
+  width: 130px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  float: left;
+  color: black;
+  transition: all 0s ease 0s;
+  cursor: default;
+  font-size: 15px;
+}
+
+
+td:hover {
+  color: red;
+}
+
+.thead {
+  color: black;
+  font-weight: 700;
+}
+
+.thead:hover {
+  color: black;
+}
+
+#lastrow td {
+  margin: 20px 50px 40px 50px;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+}
